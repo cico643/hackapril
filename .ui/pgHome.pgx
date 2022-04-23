@@ -8,16 +8,15 @@
 				"children": [
 					"eb6c-2842-038e-b251",
 					"8c21-ea90-f0ea-ff29",
-					"ee22-4804-cc30-5d46"
+					"ee22-4804-cc30-5d46",
+					"116f-9edb-1112-2d1c"
 				],
 				"name": "pgHome",
 				"orientation": "PORTRAIT",
 				"parent": null
 			},
 			"type": "Page",
-			"userProps": {
-				"paddingTop": 200
-			},
+			"userProps": {},
 			"version": "0.0.1.a"
 		},
 		{
@@ -64,6 +63,7 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
+				"height": 320,
 				"marginLeft": 15,
 				"marginRight": 15
 			}
@@ -159,11 +159,13 @@
 		{
 			"className": ".sf-button #pgHome-addButton",
 			"id": "9f2f-7259-4931-38a2",
+			"oldName": "button1",
 			"props": {
 				"children": [],
-				"name": "button1",
+				"name": "btnAdd",
 				"parent": "ee22-4804-cc30-5d46",
-				"text": "Add"
+				"text": "Add",
+				"usePageVariable": true
 			},
 			"type": "Button",
 			"userProps": {
@@ -173,7 +175,78 @@
 					"shadowColor": "rgba( 0, 0, 0, 1 )"
 				},
 				"marginTop": 16,
-				"text": "Add"
+				"text": "Add",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "116f-9edb-1112-2d1c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c51d-916b-3f05-8c9a",
+					"9e6e-5109-9f82-629d"
+				],
+				"name": "flNoItemFound",
+				"parent": "37ae-df86-5512-6e7d",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": null,
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "c51d-916b-3f05-8c9a",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgNoItemFound",
+				"parent": "116f-9edb-1112-2d1c",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"height": 150,
+				"image": "arama_sonucbulunamadi.png",
+				"imageFillType": "STRETCH",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "9e6e-5109-9f82-629d",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblNoItemFound",
+				"parent": "116f-9edb-1112-2d1c",
+				"text": "You don't have any favorite repository yet. Add one to get started.",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 25,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"height": 100,
+				"maxLines": 0,
+				"text": "You don't have any favorite repository yet. Add one to get started.",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 74, 74, 74, 1 )",
+				"usePageVariable": true
 			}
 		}
 	]

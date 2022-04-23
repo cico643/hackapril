@@ -99,8 +99,10 @@
 			"type": "FlexLayout",
 			"userProps": {
 				"flexProps": {
-					"alignSelf": "CENTER"
+					"alignSelf": "CENTER",
+					"flexGrow": 1
 				},
+				"marginBottom": 0,
 				"usePageVariable": true
 			}
 		}

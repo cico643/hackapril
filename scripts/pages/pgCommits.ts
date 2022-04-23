@@ -8,13 +8,14 @@ import Application from '@smartface/native/application';
 
 export default class PgCommits extends withDismissAndBackButton(PgCommitsDesign) {
   dataSet: any = [];
+  routeData: Record<string, any> = this.route.getState().routeData;
   constructor(private router?: Router, private route?: Route) {
     super({});
     
   }
 
   async initDataset() {
-    this.dataSet = await GetAllCommitsForGivenRepoAndBranch({organization: 'smartface', repo: 'smartface-native', branch: 'develop'});
+    this.dataSet = await GetAllCommitsForGivenRepoAndBranch({organization: this.routeData.organization, repo: this.routeData.repo, branch: 'master'});
   }
 
   initListView() {
