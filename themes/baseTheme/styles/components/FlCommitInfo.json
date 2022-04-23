@@ -1,0 +1,48 @@
+{
+  ".flCommitInfo": {
+    "backgroundColor": "${mainColor}",
+    "borderWidth": 1,
+    "borderRadius": 20,
+    "height": 150,
+    "flexProps": {
+      "positionType": "RELATIVE",
+      "flexDirection": "ROW",
+      "flexGrow": 1
+    },
+    "&-imgAvatar": {
+      "width": 50,
+      "height": 50,
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "alignSelf": "FLEX_START"
+      },
+      "imageFillType": "ASPECTFIT",
+      "image": "icon.png",
+      "borderWidth": 1,
+      "borderRadius": 25
+    },
+    "paddingLeft": 10,
+    "&-flInfoWrapper": {
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1,
+        "positionType": "RELATIVE"
+      },
+      "&-lblMessage": {
+        "maxLines": 0,
+        "textColor": "rgba( 74, 74, 74, 1 )",
+        "height": 100
+      },
+      "&-lblName": {
+        "textColor": "rgba( 0, 0, 0, 1 )"
+      }
+    },
+    "&-flImgWrapper": {
+      "width": 60,
+      "height": 150,
+      "flexProps": {
+        "justifyContent": "CENTER"
+      }
+    }
+  }
+}

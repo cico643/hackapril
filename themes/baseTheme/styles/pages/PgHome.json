@@ -1,0 +1,15 @@
+{
+  "#pgHome": {
+    "&-header": {
+      "backgroundColor": "${secondaryColor}"
+    },
+    "&-addButton": {
+      "backgroundColor": "${secondaryColor}",
+      "ios": {
+        "shadowColor": "rgba( 0, 0, 0, 1 )",
+        "shadowOffset": {}
+      },
+      "textColor": "rgba( 74, 74, 74, 1 )"
+    }
+  }
+}

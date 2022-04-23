@@ -1,0 +1,94 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "7efc-cac9-0632-1403",
+			"initialized": true,
+			"props": {
+				"children": [
+					"a8a4-e88e-8d5e-e382",
+					"c93b-4729-7351-e823",
+					"7e7b-a035-4ac3-f841"
+				],
+				"name": "pgCommits",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "a8a4-e88e-8d5e-e382",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "7efc-cac9-0632-1403"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-headerBar #pgCommits-header",
+			"id": "c93b-4729-7351-e823",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "7efc-cac9-0632-1403",
+				"title": "pgCommits"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgCommits"
+			}
+		},
+		{
+			"className": ".sf-listView #pgCommits-lvMain",
+			"id": "7e7b-a035-4ac3-f841",
+			"oldName": "listView1",
+			"props": {
+				"children": [
+					"aec3-85ee-a216-2213"
+				],
+				"name": "lvMain",
+				"parent": "7efc-cac9-0632-1403",
+				"usePageVariable": true
+			},
+			"type": "ListView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-listViewItem .lviContainer",
+			"hiddenComponent": false,
+			"id": "aec3-85ee-a216-2213",
+			"props": {
+				"children": [],
+				"name": "lviContainer",
+				"parent": "7e7b-a035-4ac3-f841"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "lviContainer",
+				"id": "6175-017f-0d3c-87fe"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0
+			}
+		}
+	]
+}

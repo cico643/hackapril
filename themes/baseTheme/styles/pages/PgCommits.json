@@ -1,0 +1,13 @@
+{
+  "#pgCommits": {
+    "&-lvMain": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null
+    },
+    "&-header": {
+      "backgroundColor": "${secondaryColor}"
+    }
+  }
+}

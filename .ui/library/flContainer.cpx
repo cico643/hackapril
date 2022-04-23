@@ -1,0 +1,108 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flContainer",
+			"id": "d9d8-f021-1ccd-1d03",
+			"props": {
+				"children": [
+					"e562-13b7-0bd9-70c3",
+					"f57d-ecd5-c435-973b",
+					"454f-e04b-4e25-f90b"
+				],
+				"name": "flContainer",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 10,
+				"top": 370
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTime",
+			"hiddenComponent": false,
+			"id": "e562-13b7-0bd9-70c3",
+			"props": {
+				"children": [],
+				"name": "flTime",
+				"parent": "d9d8-f021-1ccd-1d03",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTime",
+				"id": "b039-06c3-e0c4-6215"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"justifyContent": "FLEX_START",
+					"alignSelf": "CENTER"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTimeLine",
+			"hiddenComponent": false,
+			"id": "f57d-ecd5-c435-973b",
+			"props": {
+				"children": [],
+				"name": "flTimeLine",
+				"parent": "d9d8-f021-1ccd-1d03",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTimeLine",
+				"id": "2ae6-4ed8-f67c-7756"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": null,
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flCommitInfo",
+			"hiddenComponent": false,
+			"id": "454f-e04b-4e25-f90b",
+			"props": {
+				"children": [],
+				"name": "flCommitInfo",
+				"parent": "d9d8-f021-1ccd-1d03",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flCommitInfo",
+				"id": "270c-671f-c710-0369"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "CENTER"
+				},
+				"usePageVariable": true
+			}
+		}
+	]
+}

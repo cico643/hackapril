@@ -1,0 +1,9 @@
+{
+  ".flContainer": {
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": 1
+    },
+    "height": null
+  }
+}

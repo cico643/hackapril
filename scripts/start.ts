@@ -1,5 +1,5 @@
-import '@smartface/extension-utils';
+import '@smartface/native';
 import 'theme';
 import router from 'routes';
 
-router.push('/pages/page1');
+router.push('/pages/pgHome');

@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flTime",
+			"id": "b039-06c3-e0c4-6215",
+			"props": {
+				"children": [
+					"ba76-28a2-e3d6-a7b1"
+				],
+				"name": "flTime",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 245, 166, 35, 1)",
+				"borderRadius": 15,
+				"borderWidth": 1,
+				"flexProps": {},
+				"left": 75,
+				"top": 58
+			}
+		},
+		{
+			"className": ".sf-label .flTime-lblTime",
+			"id": "ba76-28a2-e3d6-a7b1",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblTime",
+				"parent": "b039-06c3-e0c4-6215",
+				"text": "09:00",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "09:00",
+				"usePageVariable": true
+			}
+		}
+	]
+}

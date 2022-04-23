@@ -1,0 +1,180 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "37ae-df86-5512-6e7d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"eb6c-2842-038e-b251",
+					"8c21-ea90-f0ea-ff29",
+					"ee22-4804-cc30-5d46"
+				],
+				"name": "pgHome",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"paddingTop": 200
+			},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "eb6c-2842-038e-b251",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "37ae-df86-5512-6e7d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-headerBar #pgHome-header",
+			"id": "8c21-ea90-f0ea-ff29",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "37ae-df86-5512-6e7d",
+				"title": "pgLogin"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLogin"
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "ee22-4804-cc30-5d46",
+			"props": {
+				"children": [
+					"78d1-ac15-0d43-8b19",
+					"fa31-f591-ddbc-ae1a",
+					"e3f5-ad3f-1a0a-cd6b",
+					"9f2f-7259-4931-38a2"
+				],
+				"name": "flexLayout1",
+				"parent": "37ae-df86-5512-6e7d"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"marginLeft": 15,
+				"marginRight": 15
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "78d1-ac15-0d43-8b19",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "ee22-4804-cc30-5d46",
+				"text": "Add New Repositories"
+			},
+			"type": "Label",
+			"userProps": {
+				"borderColor": "rgba( 0, 0, 0, 1 )",
+				"font": {
+					"size": 20,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"ios": {
+					"shadowColor": "rgba( 0, 0, 0, 1 )"
+				},
+				"marginBottom": 16,
+				"text": "Add New Repositories",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 74, 74, 74, 1 )"
+			}
+		},
+		{
+			"className": ".flexLayout .materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "fa31-f591-ddbc-ae1a",
+			"initialized": false,
+			"oldName": "materialTextBox",
+			"props": {
+				"children": [],
+				"name": "mtbOrganization",
+				"parent": "ee22-4804-cc30-5d46",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "materialTextBox",
+				"id": "574a-10da-b765-48e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".flexLayout .materialTextBox-wrapper",
+			"hiddenComponent": false,
+			"id": "e3f5-ad3f-1a0a-cd6b",
+			"initialized": false,
+			"oldName": "materialTextBox",
+			"props": {
+				"children": [],
+				"name": "mtbRepo",
+				"parent": "ee22-4804-cc30-5d46",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "materialTextBox",
+				"id": "574a-10da-b765-48e5"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button #pgHome-addButton",
+			"id": "9f2f-7259-4931-38a2",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "ee22-4804-cc30-5d46",
+				"text": "Add"
+			},
+			"type": "Button",
+			"userProps": {
+				"borderColor": "rgba( 245, 166, 35, 1 )",
+				"borderWidth": 1,
+				"ios": {
+					"shadowColor": "rgba( 0, 0, 0, 1 )"
+				},
+				"marginTop": 16,
+				"text": "Add"
+			}
+		}
+	]
+}

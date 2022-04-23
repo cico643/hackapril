@@ -1,0 +1,100 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flTimeLine",
+			"id": "2ae6-4ed8-f67c-7756",
+			"props": {
+				"children": [
+					"902e-b605-ad59-72f7",
+					"4403-b0d7-73e9-ccab",
+					"5e23-60f4-4b88-f795"
+				],
+				"name": "flTimeLine",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 14,
+				"top": 17
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTimeLine-flLine1",
+			"id": "902e-b605-ad59-72f7",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flLine1",
+				"parent": "2ae6-4ed8-f67c-7756",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTimeLine-flDot",
+			"id": "4403-b0d7-73e9-ccab",
+			"oldName": "flexLayout2_1",
+			"props": {
+				"children": [
+					"d34e-549a-57e3-7f5a"
+				],
+				"name": "flDot",
+				"parent": "2ae6-4ed8-f67c-7756",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTimeLine-flDot-flSquare",
+			"id": "d34e-549a-57e3-7f5a",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "flSquare",
+				"parent": "4403-b0d7-73e9-ccab",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flTimeLine-flLine1.line2",
+			"id": "5e23-60f4-4b88-f795",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [],
+				"name": "flLine2",
+				"parent": "2ae6-4ed8-f67c-7756",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}
