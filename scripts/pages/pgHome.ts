@@ -7,12 +7,11 @@ import { ImageFillType, ImageViewFillTypeIOS } from '@smartface/native/ui/imagev
 import System from '@smartface/native/device/system';
 import FlCommitInfo from 'components/FlCommitInfo';
 import {
-    styleableComponentMixin,
     styleableContainerComponentMixin
   } from "@smartface/styling-context";
 import { themeService } from 'theme';
 import { GetRepoInfo } from 'services';
-
+import Screen from '@smartface/native/device/screen'
   class StyleableFlCommitInfo extends styleableContainerComponentMixin(
     FlCommitInfo
   ) {}
@@ -67,6 +66,12 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
             return true;
         }
         themeService.addGlobalComponent(fl, `flRepo${this.index}`);
+        if(System.OS === System.OSType.IOS) {
+            this.addChild(fl, `flRepo${this.index}`, '', {
+                marginLeft: 5,
+                width: Screen.width - 10
+            });
+        }
         this.addChild(fl);
         this.index += 1;
       }
